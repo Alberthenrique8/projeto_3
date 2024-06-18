@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: rgba(114, 5, 5, 0.925);
+}
+
+#cabecalho .nav .nav-link.active{
+    color:rgba(255, 255, 255, 0.5);
+    background-color:black
+} 
+    
+
+#cabecalho .nav .nav-link {
+    color:black ;
+}
+
+.navbar-brand:hover {
+color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brande {
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar-toggler{
+    background-color: rgba(0, 0, 0, 0.959)
+}
+
+.section-title {
+    font-family: "Open Sans", sans-serif;
+}
+
+.section-title span {
+    color: rgba(114, 5, 5, 0.925);
+}
+
+#sobre-a-loja {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-colored {
+    color: rgba(114, 5, 5, 0.925);
+}
+
+.nav-carro .nav-link.active,
+#fale-conosco button{
+    background-color: black;
+    color:rgba(114, 5, 5, 0.925);
+}
+
+
+.nav-carro .nav-link:hover {
+    color: rgba(114, 5, 5, 0.925);
+}
+
+.social-link li {
+list-style: none;
+display: inline;
+}
+
+.social-link a {
+    text-decoration: none;
+} 
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+
